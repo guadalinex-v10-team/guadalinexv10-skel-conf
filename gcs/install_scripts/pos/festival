@@ -1,0 +1,7 @@
+# Festival service init script installation
+
+chmod +x /etc/init.d/festival
+
+if [ -f /sbin/systemctl ]; then
+   /sbin/systemctl daemon-reload
+fi
