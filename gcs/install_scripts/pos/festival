@@ -5,3 +5,11 @@ chmod +x /etc/init.d/festival
 if [ -f /sbin/systemctl ]; then
    /sbin/systemctl daemon-reload
 fi
+
+# Hack speech-dispatcher script
+chmod +x /usr/bin/speech-dispatcher-festival
+
+if [ ! -f /usr/bin/speech-dispatcher-orig ]; then
+    mv /usr/bin/speech-dispatcher /usr/bin/speech-dispatcher-orig
+	ln -s /usr/bin/speech-dispatcher-festival /usr/bin/speech-dispatcher
+fi
