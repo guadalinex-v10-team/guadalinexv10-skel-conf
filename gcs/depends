@@ -2,6 +2,9 @@
 # File with depends 
 
 keepass2
+festival
+speech-dispatcher
+speech-dispatcher-festival
 
 #END
 
