@@ -4,4 +4,6 @@ chmod +x /etc/init.d/festival
 
 if [ -f /sbin/systemctl ]; then
    /sbin/systemctl daemon-reload
+   # Set the service to start at boot time
+   /sbin/systemctl enable festival.service
 fi

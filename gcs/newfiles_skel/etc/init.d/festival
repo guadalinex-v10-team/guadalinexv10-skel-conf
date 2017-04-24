@@ -55,7 +55,7 @@ case "$1" in
   start)
     log_daemon_msg "Starting Festival server" "$NAME"
     start-stop-daemon --start --chuid festival --background \
-		      --exec $DAEMON -- --server -b /etc/festival.scm
+		      --exec $DAEMON -- --server -b /etc/festival.scm --language spanish
     log_end_msg 0
     ;;
   stop)
@@ -67,7 +67,7 @@ case "$1" in
     log_daemon_msg "Restarting Festival server" "$NAME"
     start-stop-daemon --stop --oknodo --exec $REALPROC
     start-stop-daemon --start --chuid festival --background \
-		      --exec $DAEMON -- --server -b /etc/festival.scm
+		      --exec $DAEMON -- --server -b /etc/festival.scm --language spanish
     log_end_msg 0
     ;;
   *)

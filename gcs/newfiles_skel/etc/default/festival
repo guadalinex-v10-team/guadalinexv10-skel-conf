@@ -9,4 +9,4 @@
 #
 # Set RUN_FESTIVAL=yes to run festival
 
-RUN_FESTIVAL=no
+RUN_FESTIVAL=yes
