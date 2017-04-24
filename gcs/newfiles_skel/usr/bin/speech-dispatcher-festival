@@ -7,12 +7,17 @@ then
   echo "Festival already running"
 else
   echo "Starting festival"
-  /usr/bin/festival -b /etc/festival.scm --server --language spanish &
-  sleep 1
+  /usr/bin/festival -b /etc/festival.scm --server &
 fi
 
 
 # Run speech dispatcher
 echo "Starting speech dispatcher"
 /usr/bin/speech-dispatcher-orig
+
+# Stop festival
+PID=`pidof festival`
+echo "Stop festival"
+kill $PID
+
 
