@@ -4,6 +4,9 @@
 keepass2
 speech-dispatcher
 
+# Hack gnome-accessibility-profiles
+gnome-accessibility-profiles
+
 #END
 
 
