@@ -1,0 +1,17 @@
+[org.gnome.desktop.a11y]
+always-show-universal-access-status=true
+
+[org.gnome.desktop.interface]
+toolkit-accessibility=true
+
+[org.gnome.yelp]
+show-cursor=true
+
+[org.gnome.desktop.a11y.applications]
+screen-reader-enabled=true
+
+[org.gnome.orca.general.braille:/org/gnome/orca/profile/default/]
+enable-braille=true
+
+[org.gnome.orca.general.speech:/org/gnome/orca/profile/default/]
+enable-speech=false

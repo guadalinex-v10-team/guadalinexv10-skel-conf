@@ -1,0 +1,14 @@
+[org.gnome.desktop.a11y]
+always-show-universal-access-status=true
+
+[org.gnome.desktop.a11y.keyboard]
+enable=true
+stickykeys-enable=true
+stickykeys-two-key-off=false
+mousekeys-enable=true
+stickykeys-modifier-beep=true
+
+[org.gnome.desktop.peripherals.keyboard]
+repeat=true
+delay=700
+repeat-interval=10
