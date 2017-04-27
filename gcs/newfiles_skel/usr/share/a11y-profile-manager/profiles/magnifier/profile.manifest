@@ -1,0 +1,6 @@
+[profile]
+name=(Cinnamon) Magnifier
+description=This profile configures the desktop environment to best suit the use of a screen magnifier
+monitor-schema=org.cinnamon.desktop.a11y.applications
+monitor-key=screen-magnifier-enabled
+

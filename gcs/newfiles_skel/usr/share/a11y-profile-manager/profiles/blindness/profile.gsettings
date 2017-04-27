@@ -9,3 +9,6 @@ show-cursor=true
 
 [org.gnome.desktop.a11y.applications]
 screen-reader-enabled=true
+
+[org.cinnamon.desktop.a11y.applications]
+screen-reader-enabled=true
