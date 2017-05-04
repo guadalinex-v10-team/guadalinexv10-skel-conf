@@ -14,3 +14,10 @@ picture-options="none"
 primary-color="#666666"
 secondary-color="#7F7F7F"
 color-shading-type="solid"
+
+[org/cinnamon/desktop/interface]
+icon-theme='HighContrast'
+gtk-theme='HighContrast'
+
+[org/cinnamon/desktop/wm/preferences]
+theme='HighContrast'

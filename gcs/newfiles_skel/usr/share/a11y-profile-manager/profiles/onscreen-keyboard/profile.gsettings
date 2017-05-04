@@ -13,6 +13,8 @@ screen-keyboard-enabled=true
 [org.cinnamon.desktop.a11y.applications]
 screen-keyboard-enabled=true
 
-
 [org.gnome.desktop.interface]
+toolkit-accessibility=true
+
+[org/cinnamon/desktop/interface]
 toolkit-accessibility=true
