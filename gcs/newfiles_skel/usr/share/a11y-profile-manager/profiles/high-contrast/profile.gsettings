@@ -19,6 +19,7 @@ color-shading-type="solid"
 text-scaling-factor=1.25
 icon-theme='HighContrast'
 gtk-theme='HighContrast'
+cursor-size=48
 
 [org/cinnamon/desktop/wm/preferences]
 theme='HighContrast'
