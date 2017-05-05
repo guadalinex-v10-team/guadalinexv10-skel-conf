@@ -16,6 +16,7 @@ secondary-color="#7F7F7F"
 color-shading-type="solid"
 
 [org/cinnamon/desktop/interface]
+text-scaling-factor=1.25
 icon-theme='HighContrast'
 gtk-theme='HighContrast'
 
