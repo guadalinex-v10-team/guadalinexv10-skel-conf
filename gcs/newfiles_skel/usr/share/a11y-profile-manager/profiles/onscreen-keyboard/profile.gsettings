@@ -16,5 +16,5 @@ screen-keyboard-enabled=true
 [org.gnome.desktop.interface]
 toolkit-accessibility=true
 
-[org/cinnamon/desktop/interface]
+[org.cinnamon.desktop.interface]
 toolkit-accessibility=true
